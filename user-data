@@ -1,0 +1,7 @@
+#cloud-config
+password: atomic
+ssh_pwauth: True
+chpasswd: { expire: False }
+
+ssh_authorized_keys:
+  - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDfGWFLNMEyO9rXeS1k41MSfk/lRQ5nC0DjVZ4OSjakhWZ3okrprfeHpNvLqVD18eEAEk80/7sdquFgdD+zConWQebYE6KD115VDFtIcrAnbIWDW+iTe66RUWq0feviqQcqaHqxkWC+hGDRU5nLgG3FaKOH8+bqkUPmAFAqrrhhNls+opizIyldrzq/E67gK8SK4UzduVfp/YLdeHUvRWnv7wIdd+nyOaGhv515Rpolh5/QG/yJ1LSLjvuqhtrq4ndRF32RFwhWl1qX7/aLc9M/P52WYPHpdjd2txkmyG+soxN2prT/btRrweXQBd/xAn56qg6K+KIZ1y5qNWjOHNbP srallaba@localhost.localdomain
